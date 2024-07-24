@@ -33,17 +33,16 @@ The program produces several outputs:
 main/
 │
 ├── data/                   
-│   ├── ‘yoga_program_ML_training_data.csv’ #data extracted from images              
-│   └── data_for_3D_visualization_and_plotly_script          
-│
+   ├── ‘yoga_program_ML_training_data.csv’ #data extracted from images              
+   └── data_for_3D_visualization_and_plotly_script          
+
 ├── models/                 
-│   ├── notebooks #ipynb & py files used in training
-│   ├── saved_models #models that performed well
-│  
-│
+   ├── notebooks #ipynb & py files used in training
+   ├── saved_models #models that performed well  
+
 ├── ulitilies/                    
-│   ├── scripts for running program   
-│   
+   ├── scripts for running program   
+   
 ├── results/  
     ├── results from model training
     ├── results from testing on unseen data
