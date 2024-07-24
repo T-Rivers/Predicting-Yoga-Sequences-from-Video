@@ -51,6 +51,7 @@ The program produces several outputs:
 3. The program may not work well with videos containing multiple persons or irregular poses.
 4. The program may require additional models to be trained or updated to improve accuracy.
 5. Pytube is a notoriously fussy, so you may have to work with some of these files to get it to work (I encountered issues and manually modified both innertube and cipher files from pytubes packages)
+
 **Program Future Development:**
 1. Improve model accuracy by collecting additional data and fine-tuning the models.
 2. Create pipeline for training on ‘unknown’ poses.
