@@ -30,22 +30,20 @@ The program produces several outputs:
 10. matplotlib (for ploting)
 
 **Program Structure:**
-main/
-│
-├── data/                   
-   ├── ‘yoga_program_ML_training_data.csv’ #data extracted from images              
-   └── data_for_3D_visualization_and_plotly_script          
 
-├── models/                 
-   ├── notebooks #ipynb & py files used in training
-   ├── saved_models #models that performed well  
+*main----> data----> ‘yoga_program_ML_training_data.csv’ #data extracted from images 
 
-├── ulitilies/                    
-   ├── scripts for running program   
-   
-├── results/  
-    ├── results from model training
-    ├── results from testing on unseen data
+*main----> data----> data_for_3D_visualization_and_plotly_script          
+
+*main----> models----> notebooks #ipynb & py files used in training
+
+*main----> models----> saved_models #models that performed well 
+
+*main----> ulitilies----> scripts for running program  
+
+*main----> results----> results from model training
+
+*main----> results----> results from testing on unseen data
 
 **Program Limitations:**
 1. The program assumes that the input video is in a supported format (e.g., MP4).
